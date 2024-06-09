@@ -1,0 +1,35 @@
+info -all
+multiply A1 , C1 -async
+
+info A1C1
+
+info -dec
+info -s 5
+
+info -s 
+
+info -asc
+info -e 5
+
+save A1C1 -file a1c1_result.rix
+save -name A1C1 -file a1c1_result.rix
+
+clear a1c1_result.rix
+
+info A1C1
+info -all
+
+multiply A1 , C1
+multiply A2 , C2
+
+info A1C1
+info A2C2
+
+save -name A1C1 -file test.rix
+save -name A2C2 -file test2.rix
+
+clear SavedResults
+info A1C1
+info -all
+
+dir testFolder
