@@ -1,16 +1,14 @@
 # ParallelMatrixCalc
 
-## Opis
-ParallelMatrixCalc je Java projekat koji omogućava učitavanje matrica iz datoteka i njihovo množenje koristeći paralelno programiranje. Projekat koristi `Feature` i `Thread` klase za konkurentno izvršavanje.
+## Description
+ParallelMatrixCalc is a Java project that enables loading matrices from files and multiplying them using parallel programming. The project utilizes Feature and Thread classes for concurrent execution.
 
-## Funkcionalnosti
-- Učitavanje matrica iz datoteka.
-- Množenje matrica koristeći paralelno programiranje.
-- Prikaz rezultata operacija.
+## Features
+- Loading matrices from files.
+- Matrix multiplication using parallel programming.
+- Displaying the results of operations.
 
-## Korišćene tehnologije
+## Technologies Used
 - Java
-- Feature klase
-- Thread klase
-
-
+- Feature classes
+- Thread classes
